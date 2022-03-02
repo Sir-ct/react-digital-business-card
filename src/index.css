@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background: rgba(35, 37, 44, 1);
+  font-family: 'Inter', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

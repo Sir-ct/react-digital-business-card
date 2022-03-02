@@ -1,0 +1,68 @@
+.App{
+  width: 317px;
+  min-height: 100vh;
+  margin: 30px auto;
+  background: rgba(26, 27, 33, 1);
+  border-radius: 10px;
+}
+.detail-cover{
+ width: 100%;
+}
+.detail-img-div{
+  object-fit: contain;
+}
+.detail-img{
+  width: 317px;
+  height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.title{
+  color: rgba(243, 191, 153, 1);
+}
+.detail-info{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.details-info-btns{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.mail-link, .linkedin-link{
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.mail-link{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.linkedin-link{
+  background: rgba(80, 147, 226, 1);
+  color: rgb(0, 0, 0);
+}
+ion-icon{
+  margin-right: 10px;
+}
+.linkedin-link ion-icon{
+  color: rgb(255, 255, 255);
+}
+.about, .interests{
+  width: 80%;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  padding: 12px 0;
+}
+.footer{
+  padding: 10px 0;
+  background: rgba(22, 22, 25, 1);
+  display: flex;
+  justify-content: space-around;
+}
+.footer ion-icon{
+  font-size: 30px;
+  color: rgba(145, 142, 155, 1);
+}
